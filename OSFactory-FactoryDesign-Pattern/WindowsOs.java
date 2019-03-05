@@ -3,12 +3,7 @@ package com.bob.hms.admin.common;
 public class WindowsOs implements OS {
 
 	@Override
-	public void show() {
-		// TODO Auto-generated method stub
+	public String show() {
+		return "From WindowsOs ";
 	}
-	
-	public void print() {
-		System.out.println("From WindowsOs ");
-	}
-
 }
